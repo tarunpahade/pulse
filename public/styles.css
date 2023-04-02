@@ -1,0 +1,374 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+box-sizing: border-box;
+scroll-behavior: smooth;
+    
+}
+body{
+    background-color: 
+    #eafaf1
+}
+nav,
+ul{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    justify-content: space-between;
+font-size: 1.1em;
+}
+
+li{
+    list-style: none;
+    padding:  1em;
+    color: 
+    #00ad6a;
+}
+nav{
+    margin-top: 40px;
+}
+.signup{
+   border: 2px solid;
+ padding: 0.3em 0.6em;
+height: fit-content;
+margin-top: 15px;
+
+}
+.signup:hover{
+    box-shadow: 5px 10px   ;
+    margin: 1px 0px;
+}
+
+/* End of navigation bar */
+.hero{
+    text-align: center;
+    font-size: 2rem;
+    padding: 15% 0%;
+    padding-top: 1em;
+
+}
+.hero-heding{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+p{
+    font-size: 1rem;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+/* end of header */
+
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    margin-top: 0%;
+    
+}
+.pricing ul{
+    display: flex;
+
+   
+
+flex-direction: column;
+}
+.features{
+    letter-spacing: 0.5px;
+}
+.features li{
+    color: black;
+   list-style: circle;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.features-header{
+    color: 
+    #00ad6a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+/* FEATURES END */
+
+
+.pricing-card{
+  
+   border:0.5px solid;
+   border-color: #00ad6a;
+   border-radius: 15px 15px 0px 0px;
+}
+.recomended{
+background-color: #00ad6a;
+text-align: center;
+padding: 0%;
+color: aliceblue;
+font-weight: bolder;
+}
+.pricing-card-heading{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+color: #00ad6a;
+}
+.price{
+    text-align: center;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.signUp{
+    background-color: #00ad6a;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 4px 50px;
+    border: 4px;
+    font-family:' BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+.subheading{
+    color: #080c16;
+}
+
+
+.premium-pricing{
+    margin-top: 10%;
+border: 0.5px solid #d6dae56e;
+background-color: white;
+color: #d6dae56e;
+}
+.premium-p{
+    background-color: #d6dae56e;;
+    color: black;
+    text-align: center;
+
+}
+
+.pricing-card{
+    background-color: 
+    white
+}
+
+/* recomended end */
+
+
+
+.testimonials{
+    text-align: center;
+}
+.testimonial-h1{
+    padding: 0px 7%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 5px;
+    line-height: 1px 1px;
+    font-size: 1.4em;
+}
+.tp{
+    color: #30b146;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+/* testimonial end */
+
+
+
+.faq{
+    display: flex;
+
+    background-color: white;
+    padding: 3%; 
+}
+.faqheading{
+    font-size: 3.25em;
+    margin-top: 10%;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.faq h1{
+    font-size: 1.25em;  
+    font-family: 'Poppins', sans-serif;
+}
+.q{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.ans {
+    color: #8d8f96;
+    padding: 5px;
+}
+.qna{
+margin: 5%;
+}
+.column2{
+    margin-top: 10%;
+    width: 50%;
+}
+.column1{
+    width: 50%;
+}
+
+/* end faq */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #080c16;
+padding: 2%;
+}
+h5{
+    color: white;
+    display: flex;
+}
+footer ul{
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+}
+.e{
+    font-size: 1em;
+}
+
+@media  screen and (max-width: 800px) {
+
+    .pricing{
+        display: block;
+    }
+.features{
+  position: relative;
+width: 100%;
+height: fit-content;
+margin: 5%;
+display: block;
+}
+.pricing-card{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: fit-content;
+}
+.premium-pricing{
+position: relative;
+    width: 100%;
+    display: block;
+    height: fit-content;
+}
+nav{
+    display: block;
+}
+nav ul{
+    display: none;
+}
+footer{
+    padding: 1%;
+    height: fit-content;
+    width: fit-content;
+}
+footer ul{
+padding: 0%;
+}
+footer button{
+    font-size: 1px;
+    padding: 0px 0px;
+    margin: 0%;
+    border: 0px;
+}
+.faq{
+    position: relative;
+    display: block;
+}
+.column1{
+    width: 100%;
+}
+.column2{
+    width: 100%;
+}
+label{
+    display: block;
+}
+.signUp{
+    padding: 0%;
+}
+#check:checked ~ nav ul{
+    display: block;
+    height: 85vh;
+    color: #30b146;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+#check:checked ~ nav .signup{
+    background-color: #00ad6a;
+    color: #080c16;
+    border: none;
+    appearance: none;
+    width: fit-content;
+}
+i{
+    position: absolute;
+    right: 10px;
+    top: 2em;
+}
+#check:checked ~ nav ul button{
+    color: #fff;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 10px;
+    z-index: 999;
+font-family: Arial, Helvetica, sans-serif;
+}
+#check:checked ~ body{
+    overflow: hidden;
+}
+label{
+    display: block;
+}
+nav{
+    background-color: #fff;
+    padding: 1em;
+    margin: 0%;
+}
+}
+
+
+.button{
+    color: #fff;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 10px;
+    z-index: 999;
+font-family: Arial, Helvetica, sans-serif;
+}
+@media  screen and (min-width: 800px) {
+
+i{
+    display: none;
+}
+label{
+    display: none;
+}
+
+}
+input{
+    display: none;
+}
